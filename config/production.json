@@ -1,0 +1,8 @@
+{
+  "host": "https://flich.herokuapp.com/",
+  "port": "PORT",
+  "authentication": {
+    "secret": "AUTHENTICATION_SECRET"
+  },
+  "mongodb": "MONGODB_URI"
+}
