@@ -18,7 +18,7 @@ module.exports = (options = {}) => {
     context.data = {
       description,
       userId: user._id,
-      mobileId,
+      mobileId: data.mobileId,
       createdAt: new Date().getTime(),
     }
 
