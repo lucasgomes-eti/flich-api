@@ -20,6 +20,8 @@ const authentication = require('./authentication');
 
 const mongodb = require('./mongodb');
 
+const mongoose = require('./mongoose');
+
 const app = express(feathers());
 
 // Load app configuration
@@ -39,6 +41,9 @@ app.configure(express.rest());
 
 
 app.configure(mongodb);
+
+
+app.configure(mongoose);
 
 
 // Configure other middleware (see `middleware/index.js`)
